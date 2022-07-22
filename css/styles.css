@@ -277,12 +277,12 @@ body {
   transition: 250ms width cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.feature-icon-wrapper:hover::before {
-  /* opacity: 1; */
+/*.feature-icon-wrapper:hover::before {
+   opacity: 1; 
   width: 100%;
   left: 0;
   
-}
+} */
 .feature-icon-box {
   width: 70px;
   height: 70px;
@@ -380,18 +380,7 @@ body {
   transform: rotateY(0deg);
 }
 
-.team-overlay {
-  display: block;
-  width: 100%;
-  height: 100%;
-  margin-top: 0;
-  margin-bottom: 0;
-  padding: 24px 64px;
-  font-size: 18px;
-  line-height: 1.56;
-  color: var(--second-acsent-color);
-  background-color: rgba(33, 150, 243, 0.9);
-}
+
 
 .team-card .team-image,
 .team-card .team-overlay {
@@ -399,14 +388,14 @@ body {
 }
 
 .team-card:hover .team-image {
-  transform: rotateY(180deg);
   
 }
 
-.team-card:hover .team-overlay {
+/*.team-card:hover .team-overlay {
   transform: rotateY(0deg);
-  
+
 }
+*/
 
 .team-card-content {
   padding-top: 30px;
@@ -721,7 +710,7 @@ body {
   top: 0;
   right: 0;
   width: 100%;
-  height: 100%;
+  height: 101%;
   transform: translateY(100%);
 
   transition: 250ms transform cubic-bezier(0.4, 0, 0.2, 1);
@@ -729,6 +718,7 @@ body {
   margin-top: 0;
   margin-bottom: 0;
   padding: 63px 24px;
+  
 
   font-size: 18px;
   line-height: 1.56;
@@ -738,7 +728,7 @@ body {
 
 .project-item:hover .project-image-overlay,
 .project-item:focus .project-image-overlay {
-  transform: translateY(0);
+  transform: translateY(0%);
 }
 
 .project-card-type {
