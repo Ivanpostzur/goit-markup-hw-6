@@ -707,6 +707,8 @@ body {
   height: 11px;
 }
 
+
+
 .form {
   display: flex;
   flex-wrap: wrap;
@@ -756,7 +758,6 @@ body {
 
 
 .form--input:focus,
-
 .form--message:focus {
   outline-color: var(--acsent-color);
 
@@ -764,7 +765,9 @@ body {
 }
 
 
-.form--input:focus+.form--icon {
+
+.form--input:focus+.form--icon,
+.icon-box-close:hover {
   fill: var(--acsent-color);
 }
 
