@@ -754,16 +754,16 @@ body {
   transform: fill var(--shift), border-color var(--shift);
 }
 
-.form--input:hover,
+
 .form--input:focus,
-.form--message:hover,
+
 .form--message:focus {
   outline-color: var(--acsent-color);
 
   border-color: var(--acsent-color);
 }
 
-.form--input:hover+.form--icon,
+
 .form--input:focus+.form--icon {
   fill: var(--acsent-color);
 }
